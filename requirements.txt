@@ -1,0 +1,7 @@
+flask
+flask-table
+flask-mysql 
+flask-cors
+module-wrapper
+gunicorn
+PyMySQL
