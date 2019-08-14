@@ -18,5 +18,4 @@ COPY . /usr/src/app
 EXPOSE 5000
 
 # run server
-#CMD ["/usr/src/app/entrypoint.sh"]
 CMD gunicorn --workers 2 --bind 0.0.0.0:5000 -m 007 wsgi:app
